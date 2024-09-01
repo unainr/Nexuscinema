@@ -4,7 +4,7 @@ import Gallarymain from "./Gallarymain";
 const Gallery = () => {
 	return (
 		<>
-			<section className=" body-font">
+			<section className=" body-font  ">
 				<div className="container px-5  mx-auto">
 					<div className="flex flex-col text-center w-full my-6">
 						<h1 className="sm:text-3xl text-2xl font-medium title-font  ">
@@ -17,7 +17,7 @@ const Gallery = () => {
 							exclusive insights into your favorite movies.
 						</p>
 					</div>
-					<div className="flex flex-wrap -m-4">
+					<div className=" container flex flex-wrap  mx-auto -m-4 ">
 						<Gallarymain gallaryimg="/g1.jpg" gallarytext="Now Here" />
 						<Gallarymain gallaryimg="/g2.jpg" gallarytext="Hunger" />
 						<Gallarymain gallaryimg="/g3.jpg" gallarytext="Venom" />

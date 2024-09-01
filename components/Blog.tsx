@@ -15,8 +15,8 @@ const Blog = () => {
       <div className="flex flex-wrap -m-4">
         <MoreBlog 
           blogimg="/img_59.jpg"
-          blogdescription="aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium."
-          blogcat="Six book-to-film adaptations to get excited about this autumn"
+          blogdescription="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          blogcat="The Beatles: Eight Days a Week – The Touring Years"
         />
         <MoreBlog 
           blogimg="/img_60.jpg"

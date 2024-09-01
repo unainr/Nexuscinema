@@ -20,7 +20,7 @@ const MoviesCard = (curElem: any) => {
 					</h3>
 					<p className="mt-1 text-xs max-w-xs">
 						{curElem.overview.length > 100
-							? `${curElem.overview.substring(0, 98)}...`
+							? `${curElem.overview.substring(0, 75)}...`
 							: curElem.overview}
 					</p>
 					<div className="float-end">
