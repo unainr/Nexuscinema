@@ -28,7 +28,7 @@ const MoviesCard = (curElem: any) => {
 						</div>
 				</div>
 				<div className="py-3 flex mx-auto justify-start ">
-					<Link href={`/movies/${curElem._id}`}>
+					<Link href={`/moviesdetails/${curElem._id}`}>
 						<Button  className="text-xs">
 							Read more
 						</Button>

@@ -2,8 +2,8 @@ import React from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-const Dynamice = async ({ params }: any) => {
-	const id: number = Number(params.id);
+const MovieDetails = async ({ params }: any) => {
+	const id: number = Number(params.slug);
 	const url: any = process.env.RAPID_KEY;
 	const options = {
 		method: "GET",
@@ -62,4 +62,4 @@ const Dynamice = async ({ params }: any) => {
 	);
 };
 
-export default Dynamice;
+export default MovieDetails;
